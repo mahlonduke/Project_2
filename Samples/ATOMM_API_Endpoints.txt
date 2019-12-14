@@ -9,6 +9,3 @@ https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&
 
 Denver, CO:
 https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=39.747891&longitude=-104.986956
-
-Wailea, HI:
-https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=20.700006&longitude=-156.444262
