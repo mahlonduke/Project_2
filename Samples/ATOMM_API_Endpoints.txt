@@ -1,0 +1,14 @@
+San Francisco, CA:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?pagesize=100&radius=50&latitude=37.807570&longitude=-122.258336
+
+New York, NY:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?pagesize=100&radius=50&latitude=40.711102&longitude=-74.000501
+
+Chicago, IL:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?pagesize=100&radius=50&latitude=41.851808&longitude=-87.633122
+
+Denver, CO:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?pagesize=100&radius=50&latitude=39.747891&longitude=-104.986956
+
+Wailea, HI:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?pagesize=100&radius=50&latitude=20.700006&longitude=-156.444262

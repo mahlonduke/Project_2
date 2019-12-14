@@ -1,0 +1,5242 @@
+<Response>
+    <status>
+        <version>1.0.0</version>
+        <code>0</code>
+        <msg>SuccessWithResult</msg>
+        <total>10000</total>
+        <page>1</page>
+        <pagesize>100</pagesize>
+    </status>
+    <property>
+        <identifier>
+            <obPropId>15259812915001</obPropId>
+            <fips>15001</fips>
+            <apn>3560020440000</apn>
+            <apnOrig>3560020440000</apnOrig>
+            <attomId>152598129</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>4.411</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>562949 AKONI PULE HWY</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>562949 AKONI PULE HWY, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.236990</latitude>
+            <longitude>-155.867530</longitude>
+            <distance>49.12</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690496, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2005</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2174</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21805665215001</obPropId>
+            <fips>15001</fips>
+            <apn>3550040720000</apn>
+            <apnOrig>3550040720000</apnOrig>
+            <attomId>218056652</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.197</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>55148 KOKOIKI RD</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>55148 KOKOIKI RD, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.240150</latitude>
+            <longitude>-155.862970</longitude>
+            <distance>49.2</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2008</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3764</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21807096215001</obPropId>
+            <fips>15001</fips>
+            <apn>3550040290000</apn>
+            <apnOrig>3550040290000</apnOrig>
+            <attomId>218070962</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>55131 KOKOIKI RD</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>55131 KOKOIKI RD, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.240150</latitude>
+            <longitude>-155.862970</longitude>
+            <distance>49.2</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1975</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1280</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>1</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21807096515001</obPropId>
+            <fips>15001</fips>
+            <apn>3550040380000</apn>
+            <apnOrig>3550040380000</apnOrig>
+            <attomId>218070965</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.748</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>55118 KOKOIKI RD</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>55118 KOKOIKI RD, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.238630</latitude>
+            <longitude>-155.861340</longitude>
+            <distance>49.35</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2005</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3372</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21807660315001</obPropId>
+            <fips>15001</fips>
+            <apn>3560010340001</apn>
+            <apnOrig>3560010340001</apnOrig>
+            <attomId>218076603</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.768</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>562995 AKONI PULE HWY A</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>562995 AKONI PULE HWY A, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.238630</latitude>
+            <longitude>-155.861340</longitude>
+            <distance>49.35</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1991</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1990</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21807660715001</obPropId>
+            <fips>15001</fips>
+            <apn>3560010550000</apn>
+            <apnOrig>3560010550000</apnOrig>
+            <attomId>218076607</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.185</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>563029 AKONI PULE HWY</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>563029 AKONI PULE HWY, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.238630</latitude>
+            <longitude>-155.861340</longitude>
+            <distance>49.35</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1962</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1296</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>1</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21808729915001</obPropId>
+            <fips>15001</fips>
+            <apn>3570010220000</apn>
+            <apnOrig>3570010220000</apnOrig>
+            <attomId>218087299</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>262</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>57-1935 AKONI PULE HWY</line1>
+            <line2>HAWI, HI 96719</line2>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>57-1935 AKONI PULE HWY, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.238730</latitude>
+            <longitude>-155.860420</longitude>
+            <distance>49.39</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314739415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860057</apn>
+            <apnOrig>2210050860057</apnOrig>
+            <attomId>253147394</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5452 MAKENA ALANUI # 402</line1>
+            <line2>WAILEA, HI 96753</line2>
+            <locality>Wailea</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>5452 MAKENA ALANUI # 402, WAILEA, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.644171</latitude>
+            <longitude>-156.441157</longitude>
+            <distance>3.85</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Apartment</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>APARTMENT</proptype>
+            <yearbuilt>2016</yearbuilt>
+            <propLandUse>APARTMENT</propLandUse>
+            <propIndicator>22</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3351</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3880830215009</obPropId>
+            <fips>15009</fips>
+            <apn>2210060870000</apn>
+            <apnOrig>2210060870000</apnOrig>
+            <attomId>38808302</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.0021</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>7595 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>7595 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.619291</latitude>
+            <longitude>-156.438085</longitude>
+            <distance>5.57</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>2016</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4785</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3880804315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210060860000</apn>
+            <apnOrig>2210060860000</apnOrig>
+            <attomId>38808043</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>7555 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>7555 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.619750</latitude>
+            <longitude>-156.438456</longitude>
+            <distance>5.53</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>2015</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5680</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>18826758215001</obPropId>
+            <fips>15001</fips>
+            <apn>3550040250000</apn>
+            <apnOrig>3550040250000</apnOrig>
+            <attomId>188267582</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>7.657</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>553058 AKONI PULE HWY</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>553058 AKONI PULE HWY, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.238930</latitude>
+            <longitude>-155.858720</longitude>
+            <distance>49.47</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-4-11</lastModified>
+            <pubDate>2019-4-25</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>4357812715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210060850000</apn>
+            <apnOrig>2210060850000</apnOrig>
+            <attomId>43578127</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.031</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>7505 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>7505 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.620294</latitude>
+            <longitude>-156.438693</longitude>
+            <distance>5.5</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1991</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>10464</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>7</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19877162415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210060160000</apn>
+            <apnOrig>2210060160000</apnOrig>
+            <attomId>198771624</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.692</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>7150 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>7150 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5425</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.624630</latitude>
+            <longitude>-156.440920</longitude>
+            <distance>5.19</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1991</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5224</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19039460615009</obPropId>
+            <fips>15009</fips>
+            <apn>2210061010000</apn>
+            <apnOrig>2210061010000</apnOrig>
+            <attomId>190394606</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.4496</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>6925 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>6925 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5422</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.627193</latitude>
+            <longitude>-156.443013</longitude>
+            <distance>5.01</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1986</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1972</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>6</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20081049915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210061030000</apn>
+            <apnOrig>2210061030000</apnOrig>
+            <attomId>200810499</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>6850 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>6850 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.628331</latitude>
+            <longitude>-156.443621</longitude>
+            <distance>4.93</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19994092615001</obPropId>
+            <fips>15001</fips>
+            <apn>3550040310000</apn>
+            <apnOrig>3550040310000</apnOrig>
+            <attomId>199940926</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>3.9</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>55164 KOKOIKI RD</line1>
+            <line2>HAWI, HI 96719</line2>
+            <locality>HAWI</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>55164 KOKOIKI RD, HAWI, HI 96719</oneLine>
+            <postal1>96719</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.240150</latitude>
+            <longitude>-155.862970</longitude>
+            <distance>49.2</distance>
+            <geoid>CO15001, CS1592520, DB1500030, MT30004227, ND0000100564, ND0004690492, RS0000499879, SB0000081677, SB0000081863, SB0000081876, ZI96755</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>HOUSE</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2005</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3275</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14788894315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210061100000</apn>
+            <apnOrig>2210061100000</apnOrig>
+            <attomId>147888943</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.621</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5500 MAKENA ALANUI</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaExt</matchCode>
+            <oneLine>5500 MAKENA ALANUI, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5450</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Extrapolate</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.640611</latitude>
+            <longitude>-156.444048</longitude>
+            <distance>4.09</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2004</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4721</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>18726183515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210080620002</apn>
+            <apnOrig>2210080620002</apnOrig>
+            <attomId>187261835</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.4672</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>16 MALUKAI LN # 2</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>16 MALUKAI LN # 2, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>6501</postal2>
+            <postal3>R012</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.643314</latitude>
+            <longitude>-156.444504</longitude>
+            <distance>3.9</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, PL1576925, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>COOPERATIVE</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>COOPERATIVE</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5121</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19598334815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210080620006</apn>
+            <apnOrig>2210080620006</apnOrig>
+            <attomId>195983348</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.4592</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>23 MALUKAI LN # 6</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>23 MALUKAI LN # 6, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>6501</postal2>
+            <postal3>R012</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.643314</latitude>
+            <longitude>-156.444504</longitude>
+            <distance>3.9</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, PL1576925, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>COOPERATIVE</proptype>
+            <yearbuilt>2004</yearbuilt>
+            <propLandUse>COOPERATIVE</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5144</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20167393915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210080620003</apn>
+            <apnOrig>2210080620003</apnOrig>
+            <attomId>201673939</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.4593</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>15 MALUKAI LN # 3</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>15 MALUKAI LN # 3, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>6501</postal2>
+            <postal3>R012</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.643314</latitude>
+            <longitude>-156.444504</longitude>
+            <distance>3.9</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, PL1576925, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>COOPERATIVE</proptype>
+            <yearbuilt>2004</yearbuilt>
+            <propLandUse>COOPERATIVE</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5331</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>7</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314735015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860013</apn>
+            <apnOrig>2210050860013</apnOrig>
+            <attomId>253147350</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M109</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M109, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4478</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314735115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860014</apn>
+            <apnOrig>2210050860014</apnOrig>
+            <attomId>253147351</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M110</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M110, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4339</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314736015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860023</apn>
+            <apnOrig>2210050860023</apnOrig>
+            <attomId>253147360</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M301</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M301, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4676</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5.5</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314736115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860024</apn>
+            <apnOrig>2210050860024</apnOrig>
+            <attomId>253147361</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M303</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M303, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4393</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314736415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860027</apn>
+            <apnOrig>2210050860027</apnOrig>
+            <attomId>253147364</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M305</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M305, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4393</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314738615009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860049</apn>
+            <apnOrig>2210050860049</apnOrig>
+            <attomId>253147386</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # P11</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # P11, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2527</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2.5</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314740815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860071</apn>
+            <apnOrig>2210050860071</apnOrig>
+            <attomId>253147408</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5416 MAKENA RD # 302</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>5416 MAKENA RD # 302, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8497</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.649090</latitude>
+            <longitude>-156.442454</longitude>
+            <distance>3.5</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Apartment</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>APARTMENT</proptype>
+            <yearbuilt>2016</yearbuilt>
+            <propLandUse>APARTMENT</propLandUse>
+            <propIndicator>22</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4827</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314741115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860074</apn>
+            <apnOrig>2210050860074</apnOrig>
+            <attomId>253147411</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5418 MAKENA RD # 102</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>5418 MAKENA RD # 102, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8497</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.649090</latitude>
+            <longitude>-156.442454</longitude>
+            <distance>3.5</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Apartment</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>APARTMENT</proptype>
+            <yearbuilt>2016</yearbuilt>
+            <propLandUse>APARTMENT</propLandUse>
+            <propIndicator>22</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3683</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21752049115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070660001</apn>
+            <apnOrig>2210070660001</apnOrig>
+            <attomId>217520491</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.388</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5415 MAKENA ALANUI # 1</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5415 MAKENA ALANUI # 1, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8442</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.636814</latitude>
+            <longitude>-156.438532</longitude>
+            <distance>4.36</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112606, ND0000589480, ND0004719222, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2013</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4052</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>18825223415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210060340000</apn>
+            <apnOrig>2210060340000</apnOrig>
+            <attomId>188252234</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.818</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5520 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5520 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.640592</latitude>
+            <longitude>-156.444030</longitude>
+            <distance>4.09</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2004</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5398</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>7</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>15375108915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071150000</apn>
+            <apnOrig>2210071150000</apnOrig>
+            <attomId>153751089</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.472</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5171 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5171 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.652885</latitude>
+            <longitude>-156.440421</longitude>
+            <distance>3.25</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>RESIDENTIAL ACREAGE</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>RESIDENTIAL ACREAGE</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19718673415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070070000</apn>
+            <apnOrig>2210070070000</apnOrig>
+            <attomId>197186734</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.0192</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5070 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5070 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.654734</latitude>
+            <longitude>-156.442656</longitude>
+            <distance>3.12</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0000112231, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1999</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>7691</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>9</bathstotal>
+                <beds>6</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>2986185815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070990000</apn>
+            <apnOrig>2210070990000</apnOrig>
+            <attomId>29861858</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.7262</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5066 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5066 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.654889</latitude>
+            <longitude>-156.442661</longitude>
+            <distance>3.11</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0000112231, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2000</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>6943</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>6</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>18825224515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071000000</apn>
+            <apnOrig>2210071000000</apnOrig>
+            <attomId>188252245</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.5095</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5050 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5050 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.655380</latitude>
+            <longitude>-156.442607</longitude>
+            <distance>3.07</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0000112231, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2006</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>9176</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3101941915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070030000</apn>
+            <apnOrig>2210070030000</apnOrig>
+            <attomId>31019419</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.01</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5420 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5420 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.646765</latitude>
+            <longitude>-156.442156</longitude>
+            <distance>3.67</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1965</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1197</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>1</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21752049315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070660003</apn>
+            <apnOrig>2210070660003</apnOrig>
+            <attomId>217520493</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.388</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5419 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5419 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647050</latitude>
+            <longitude>-156.441830</longitude>
+            <distance>3.65</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2013</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4052</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314734115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860004</apn>
+            <apnOrig>2210050860004</apnOrig>
+            <attomId>253147341</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M4</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M4, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4431</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314734415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860007</apn>
+            <apnOrig>2210050860007</apnOrig>
+            <attomId>253147344</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M103</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M103, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4393</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20405924315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071030000</apn>
+            <apnOrig>2210071030000</apnOrig>
+            <attomId>204059243</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.4595</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5000 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5000 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.656485</latitude>
+            <longitude>-156.441884</longitude>
+            <distance>3</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1982</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>500</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>1</bathstotal>
+                <beds>1</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20584721015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071080000</apn>
+            <apnOrig>2210071080000</apnOrig>
+            <attomId>205847210</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.5549</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5000 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5000 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5421</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.656485</latitude>
+            <longitude>-156.441884</longitude>
+            <distance>3</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>RESIDENTIAL ACREAGE</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>RESIDENTIAL ACREAGE</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>2800097115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010024</apn>
+            <apnOrig>2210071010024</apnOrig>
+            <attomId>28000971</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT D102</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT D102, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5412</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.656697</latitude>
+            <longitude>-156.440526</longitude>
+            <distance>2.99</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000112647, ND0000589480, ND0004719222, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2116</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3894295015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010017</apn>
+            <apnOrig>2210071010017</apnOrig>
+            <attomId>38942950</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT C201</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT C201, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5409</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2116</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314737015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860033</apn>
+            <apnOrig>2210050860033</apnOrig>
+            <attomId>253147370</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M311</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M311, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4393</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314737315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860036</apn>
+            <apnOrig>2210050860036</apnOrig>
+            <attomId>253147373</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M314</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M314, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4393</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4.5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314737515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860038</apn>
+            <apnOrig>2210050860038</apnOrig>
+            <attomId>253147375</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # M316</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # M316, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4676</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5.5</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314737715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860040</apn>
+            <apnOrig>2210050860040</apnOrig>
+            <attomId>253147377</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # P2</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # P2, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2527</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2.5</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314738715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860050</apn>
+            <apnOrig>2210050860050</apnOrig>
+            <attomId>253147387</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # P12</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # P12, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2668</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3.5</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>25314740315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050860066</apn>
+            <apnOrig>2210050860066</apnOrig>
+            <attomId>253147403</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5400 MAKENA ALANUI # 409</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5400 MAKENA ALANUI # 409, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8435</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.647106</latitude>
+            <longitude>-156.438784</longitude>
+            <distance>3.66</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Apartment</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>APARTMENT</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>APARTMENT</propLandUse>
+            <propIndicator>22</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-1-24</lastModified>
+            <pubDate>2018-2-8</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19844050815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010034</apn>
+            <apnOrig>2210071010034</apnOrig>
+            <attomId>198440508</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT E302</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT E302, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5414</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2745</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3543939915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070060001</apn>
+            <apnOrig>2210070060001</apnOrig>
+            <attomId>35439399</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.126</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>5232 MAKENA RD # A</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>5232 MAKENA RD # A, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5420</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.651301</latitude>
+            <longitude>-156.440739</longitude>
+            <distance>3.36</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Commercial</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>COMMON AREA</proptype>
+            <yearbuilt>1964</yearbuilt>
+            <propLandUse>COMMON AREA</propLandUse>
+            <propIndicator>20</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>825</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>1</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14405949815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070960005</apn>
+            <apnOrig>2210070960005</apnOrig>
+            <attomId>144059498</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.3836</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4950 MAKENA RD UNIT 5</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4950 MAKENA RD UNIT 5, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>8477</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657513</latitude>
+            <longitude>-156.441149</longitude>
+            <distance>2.93</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1998</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>4155</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3902676015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950014</apn>
+            <apnOrig>2210070950014</apnOrig>
+            <attomId>39026760</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT B206</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT B206, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5438</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>15260132715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950100</apn>
+            <apnOrig>2210070950100</apnOrig>
+            <attomId>152601327</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI # C-106</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI # C-106, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5499</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1989</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1600</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>15536150115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950013</apn>
+            <apnOrig>2210070950013</apnOrig>
+            <attomId>155361501</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT B205</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT B205, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5436</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>18645410615009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950066</apn>
+            <apnOrig>2210070950066</apnOrig>
+            <attomId>186454106</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT F304</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT F304, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5441</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1038</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19039461115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950068</apn>
+            <apnOrig>2210070950068</apnOrig>
+            <attomId>190394611</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT F306</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT F306, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5441</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1038</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>3894296115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010037</apn>
+            <apnOrig>2210071010037</apnOrig>
+            <attomId>38942961</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT F201</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT F201, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5413</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2116</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>4362491715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010022</apn>
+            <apnOrig>2210071010022</apnOrig>
+            <attomId>43624917</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT C402</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT C402, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5411</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2745</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14242832315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010000</apn>
+            <apnOrig>2210071010000</apnOrig>
+            <attomId>142428323</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>6.1797</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5404</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Apartment</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>APARTMENT</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>APARTMENT</propLandUse>
+            <propIndicator>22</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14769200815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210071010027</apn>
+            <apnOrig>2210071010027</apnOrig>
+            <attomId>147692008</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4955 MAKENA RD APT D301</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4955 MAKENA RD APT D301, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5414</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657328</latitude>
+            <longitude>-156.440904</longitude>
+            <distance>2.94</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>2002</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2773</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14405949715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070710000</apn>
+            <apnOrig>2210070710000</apnOrig>
+            <attomId>144059497</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.161</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4945 MAKENA RD</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4945 MAKENA RD, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5401</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.657484</latitude>
+            <longitude>-156.440838</longitude>
+            <distance>2.93</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1548350, RS0002925881, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>2001</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>5135</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>6</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19274683215009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050490000</apn>
+            <apnOrig>2210050490000</apnOrig>
+            <attomId>192746832</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>8.575</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1521 KANAIO-KALAMA PARK RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1521 KANAIO-KALAMA PARK RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1980</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2680</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>1</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19273716515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950096</apn>
+            <apnOrig>2210070950096</apnOrig>
+            <attomId>192737165</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI # C-102</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI # C-102, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5499</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1989</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1600</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19274683815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950033</apn>
+            <apnOrig>2210070950033</apnOrig>
+            <attomId>192746838</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT E205</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT E205, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5446</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19432922715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950094</apn>
+            <apnOrig>2210070950094</apnOrig>
+            <attomId>194329227</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI # A-204</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI # A-204, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5499</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1989</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1622</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19560472915009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950075</apn>
+            <apnOrig>2210070950075</apnOrig>
+            <attomId>195604729</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT G105</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT G105, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5443</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1510</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19560473015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950079</apn>
+            <apnOrig>2210070950079</apnOrig>
+            <attomId>195604730</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT G203</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT G203, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5445</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19560473115009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950091</apn>
+            <apnOrig>2210070950091</apnOrig>
+            <attomId>195604731</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI # A-201</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI # A-201, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5499</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1989</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1644</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19622571815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950006</apn>
+            <apnOrig>2210070950006</apnOrig>
+            <attomId>196225718</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT B106</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT B106, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5434</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1510</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19718673515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950009</apn>
+            <apnOrig>2210070950009</apnOrig>
+            <attomId>197186735</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT B201</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT B201, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5436</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1379</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19992933415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950036</apn>
+            <apnOrig>2210070950036</apnOrig>
+            <attomId>199929334</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT E302</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT E302, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5433</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1038</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19992933615009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950052</apn>
+            <apnOrig>2210070950052</apnOrig>
+            <attomId>199929336</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT F202</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT F202, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5437</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19995318315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950023</apn>
+            <apnOrig>2210070950023</apnOrig>
+            <attomId>199953183</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT E101</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT E101, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5444</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1548</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20326570815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950107</apn>
+            <apnOrig>2210070950107</apnOrig>
+            <attomId>203265708</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI # C-206</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI # C-206, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5499</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1989</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1618</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>14425721015009</obPropId>
+            <fips>15009</fips>
+            <apn>2230221330000</apn>
+            <apnOrig>2230221330000</apnOrig>
+            <attomId>144257210</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.2806</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>AINAKULA RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>AINAKULA RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>RESIDENTIAL ACREAGE</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>RESIDENTIAL ACREAGE</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21751661315009</obPropId>
+            <fips>15009</fips>
+            <apn>2220320140000</apn>
+            <apnOrig>2220320140000</apnOrig>
+            <attomId>217516613</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.049</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1245 KEANUHEA ST</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1245 KEANUHEA ST, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7311</postal2>
+            <postal3>R002</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2014</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2402</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>22033448515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210080010000</apn>
+            <apnOrig>2210080010000</apnOrig>
+            <attomId>220334485</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2564.31</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>12700 KULA HWY</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>12700 KULA HWY, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1993</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>15625</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>20</bathstotal>
+                <beds>38</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>22033449315009</obPropId>
+            <fips>15009</fips>
+            <apn>2230031890000</apn>
+            <apnOrig>2230031890000</apnOrig>
+            <attomId>220334493</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>20.249</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>200 HAPALUA RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>200 HAPALUA RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2005</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3542</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>22033788415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210030160000</apn>
+            <apnOrig>2210030160000</apnOrig>
+            <attomId>220337884</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>9</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>2475 UPPER KANAIO RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>2475 UPPER KANAIO RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>1920</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>735</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>22134037515009</obPropId>
+            <fips>15009</fips>
+            <apn>2170040150000</apn>
+            <apnOrig>2170040150000</apnOrig>
+            <attomId>221340375</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>10.04</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KAUPO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KAUPO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>22875855515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210081500000</apn>
+            <apnOrig>2210081500000</apnOrig>
+            <attomId>228758555</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0.041</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>OKOLANI DR</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>OKOLANI DR, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>VACANT LAND (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>VACANT LAND (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20597114715009</obPropId>
+            <fips>15009</fips>
+            <apn>2230070420000</apn>
+            <apnOrig>2230070420000</apnOrig>
+            <attomId>205971147</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>5.115</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>13300 HALEAKALA HWY</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>13300 HALEAKALA HWY, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>2008</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>3384</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>4</bathstotal>
+                <beds>3</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20689255615009</obPropId>
+            <fips>15009</fips>
+            <apn>2210041180000</apn>
+            <apnOrig>2210041180000</apnOrig>
+            <attomId>206892556</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>3.903</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>780 KANAIO KALAMA PARK RD # 86</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>780 KANAIO KALAMA PARK RD # 86, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7463</postal2>
+            <postal3>H001</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>2003</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2765</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>5</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>21751506715009</obPropId>
+            <fips>15009</fips>
+            <apn>2220320110000</apn>
+            <apnOrig>2220320110000</apnOrig>
+            <attomId>217515067</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.198</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1175 KEANUHEA ST</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1175 KEANUHEA ST, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7322</postal2>
+            <postal3>R002</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2013</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1674</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2018-7-10</lastModified>
+            <pubDate>2018-7-13</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20160777015009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950078</apn>
+            <apnOrig>2210070950078</apnOrig>
+            <attomId>201607770</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT G202</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT G202, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5445</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>20224162715009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950073</apn>
+            <apnOrig>2210070950073</apnOrig>
+            <attomId>202241627</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT G103</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT G103, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5443</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1510</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048755415009</obPropId>
+            <fips>15009</fips>
+            <apn>2170030520000</apn>
+            <apnOrig>2170030520000</apnOrig>
+            <attomId>240487554</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>22.753</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>PIILANI HWY</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>PIILANI HWY, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048755715009</obPropId>
+            <fips>15009</fips>
+            <apn>2170030590000</apn>
+            <apnOrig>2170030590000</apnOrig>
+            <attomId>240487557</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>20.25</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KAUPO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KAUPO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-8-9</lastModified>
+            <pubDate>2019-8-31</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048756115009</obPropId>
+            <fips>15009</fips>
+            <apn>2170030630000</apn>
+            <apnOrig>2170030630000</apnOrig>
+            <attomId>240487561</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>7.2</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KAUPO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KAUPO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19274683315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210050500000</apn>
+            <apnOrig>2210050500000</apnOrig>
+            <attomId>192746833</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>8.741</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1255 KANAIO KALAMA PARK RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1255 KANAIO KALAMA PARK RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7469</postal2>
+            <postal3>H001</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1988</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1898</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>3</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048757915009</obPropId>
+            <fips>15009</fips>
+            <apn>2190010050000</apn>
+            <apnOrig>2190010050000</apnOrig>
+            <attomId>240487579</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>15.83</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>PIILANI HWY</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>PIILANI HWY, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048758015009</obPropId>
+            <fips>15009</fips>
+            <apn>2190010080000</apn>
+            <apnOrig>2190010080000</apnOrig>
+            <attomId>240487580</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>62</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KAUPO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KAUPO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048758315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210020030000</apn>
+            <apnOrig>2210020030000</apnOrig>
+            <attomId>240487583</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.488</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KANAIO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KANAIO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048758415009</obPropId>
+            <fips>15009</fips>
+            <apn>2210020040000</apn>
+            <apnOrig>2210020040000</apnOrig>
+            <attomId>240487584</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.5</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KANAIO</line1>
+            <line2>KULA, HI 96790</line2>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KANAIO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>VACANT LAND (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>VACANT LAND (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-7-10</lastModified>
+            <pubDate>2019-7-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>24048758515009</obPropId>
+            <fips>15009</fips>
+            <apn>2210020060000</apn>
+            <apnOrig>2210020060000</apnOrig>
+            <attomId>240487585</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.55</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>KANAIO</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>KANAIO, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>VACANT LAND (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>VACANT LAND (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>23820780215009</obPropId>
+            <fips>15009</fips>
+            <apn>2220320160000</apn>
+            <apnOrig>2220320160000</apnOrig>
+            <attomId>238207802</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.085</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1242 KEANUHEA ST</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1242 KEANUHEA ST, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7311</postal2>
+            <postal3>R002</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Agricultural</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>2018</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>70</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1656</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>5</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19432922315009</obPropId>
+            <fips>15009</fips>
+            <apn>2210041160000</apn>
+            <apnOrig>2210041160000</apnOrig>
+            <attomId>194329223</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>6.128</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>590 KANAIO KALAMA PARK RD</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>590 KANAIO KALAMA PARK RD, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Single Family Residence / Townhouse</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>SFR</proptype>
+            <yearbuilt>1992</yearbuilt>
+            <propLandUse>SFR</propLandUse>
+            <propIndicator>10</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>2510</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>4</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>23820781615009</obPropId>
+            <fips>15009</fips>
+            <apn>2220320310000</apn>
+            <apnOrig>2220320310000</apnOrig>
+            <attomId>238207816</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>2.005</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>1020 KEANUHEA ST</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>1020 KEANUHEA ST, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+            <postal2>7309</postal2>
+            <postal3>R002</postal3>
+        </address>
+        <location>
+            <accuracy>Zip9</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>AGRICULTURAL (NEC)</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>AGRICULTURAL (NEC)</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>23914295815009</obPropId>
+            <fips>15009</fips>
+            <apn>2381010350000</apn>
+            <apnOrig>2381010350000</apnOrig>
+            <attomId>239142958</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>1.354</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>PULEHU PL</line1>
+            <line2>KULA, HI 96790</line2>
+            <locality>Kula</locality>
+            <matchCode>ExaZip</matchCode>
+            <oneLine>PULEHU PL, KULA, HI 96790</oneLine>
+            <postal1>96790</postal1>
+        </address>
+        <location>
+            <accuracy>Zip5</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.663600</latitude>
+            <longitude>-156.362740</longitude>
+            <distance>5.84</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, SB0000081699, SB0000081849, SB0000081864, ZI96790</geoid>
+        </location>
+        <summary>
+            <propclass>Vacant</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>INDUSTRIAL ACREAGE</proptype>
+            <yearbuilt>0</yearbuilt>
+            <propLandUse>INDUSTRIAL ACREAGE</propLandUse>
+            <propIndicator>80</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>0</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>0</bathstotal>
+                <beds>0</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+    <property>
+        <identifier>
+            <obPropId>19718673815009</obPropId>
+            <fips>15009</fips>
+            <apn>2210070950059</apn>
+            <apnOrig>2210070950059</apnOrig>
+            <attomId>197186738</attomId>
+        </identifier>
+        <lot>
+            <lotSize1>0</lotSize1>
+        </lot>
+        <address>
+            <country>US</country>
+            <countrySubd>HI</countrySubd>
+            <line1>4850 MAKENA ALANUI APT F209</line1>
+            <line2>KIHEI, HI 96753</line2>
+            <locality>Kihei</locality>
+            <matchCode>ExaStr</matchCode>
+            <oneLine>4850 MAKENA ALANUI APT F209, KIHEI, HI 96753</oneLine>
+            <postal1>96753</postal1>
+            <postal2>5439</postal2>
+            <postal3>R001</postal3>
+        </address>
+        <location>
+            <accuracy>Street</accuracy>
+            <elevation>0</elevation>
+            <latitude>20.659420</latitude>
+            <longitude>-156.440600</longitude>
+            <distance>2.8</distance>
+            <geoid>CO15009, CS1591890, DB1500030, MT30004228, ND0000589480, PL1576925, RS0002925880, SB0000081705, SB0000081854, SB0000081866, ZI96753</geoid>
+        </location>
+        <summary>
+            <propclass>Condominium (residential)</propclass>
+            <propsubtype>RESIDENTIAL</propsubtype>
+            <proptype>CONDOMINIUM</proptype>
+            <yearbuilt>1984</yearbuilt>
+            <propLandUse>CONDOMINIUM</propLandUse>
+            <propIndicator>11</propIndicator>
+        </summary>
+        <building>
+            <size>
+                <universalsize>1313</universalsize>
+            </size>
+            <rooms>
+                <bathstotal>2</bathstotal>
+                <beds>2</beds>
+            </rooms>
+        </building>
+        <vintage>
+            <lastModified>2019-11-8</lastModified>
+            <pubDate>2019-11-24</pubDate>
+        </vintage>
+    </property>
+</Response>
