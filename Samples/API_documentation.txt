@@ -1,0 +1,4 @@
+General Documentation: https://api.developer.attomdata.com/docs
+
+Sales Snapshot Endpoint:
+https://api.developer.attomdata.com/docs#!/Sale/getHomeSaleSnapshotsGeoId
