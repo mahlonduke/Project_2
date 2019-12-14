@@ -9,3 +9,6 @@ https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&
 
 Denver, CO:
 https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=39.747891&longitude=-104.986956
+
+Austin, TX:
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=30.276930&longitude=-97.743102
