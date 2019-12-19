@@ -5,21 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Flask Plotlyjs Example</title>
+  <title>Housing Trends</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Trends in Sales Prices in Major American Citieis</h1>
-        <p>2010 - 2019</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
+      <div class="col-md-12">
+        <h3 class="text-center">
+          Trend of Housing Prices in Major Cities
+        </h3>
         <div class="controlPanel">
           <h5>Sale Location:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)">
@@ -30,15 +27,100 @@
             <option value="denver">Denver</option>
             <option value="austin">Austin</option>
           </select>
+        </div> 
+        <div class="jumbotron">
+          <h2>
+            Where our d3 graph will go
+          </h2>
+          <p>
+            Can it be in a jumbotron?
+          </p>
         </div>
-      </div>
-      <div class="col-lg-2">
-        <div id="map"></div>
+        <div class="row">
+          <div class="col-md-8">
+            <h3>
+              
+            </h3><img alt="San Francisco Cityline" src="https://s.marketwatch.com/public/resources/images/MW-HF311_sanfra_ZH_20190307211532.jpg" />
+            <h3 class="text-center">
+              Is it worth the cost? 
+            </h3>
+            <p>
+              It’s commonly known that California, and the Bay Area in particular, offers some of the best, highest-paying jobs 
+              in the nation.  It’s also commonly known, however, that the Bay Area boasts <strong>some of the most expensive real estate
+              in the world.</strong>  For young professionals who are looking to settle down, this raises an important question: “Is the 
+              Bay Area salary worth it?”.  We’ve attempted to answer that question by looking at the average sale price for homes 
+              in five major American cities.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <table class="table table-bordered table-sm">
+              <thead>
+                <tr>
+                  <th>
+                    City Statistics
+                  </th>
+                  <th>
+                    Numbers
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Mode Year Built
+                  </td>
+                  <td>
+                    ####
+                  </td>
+                </tr>
+                <tr class="table-sqft">
+                  <td>
+                    Average Price per sq.ft
+                  </td>
+                  <td>
+                    ####
+                  </td>
+                </tr>
+                <tr class="table-bdrm">
+                  <td>
+                    Average price per bedroom
+                  </td>
+                  <td>
+                    ####
+                  </td>
+                </tr>
+                <tr class="table-beds">
+                  <td>
+                    Average number of beds
+                  </td>
+                  <td>
+                    ####
+                  </td>
+                </tr>
+                <tr class="table-avgyear">
+                  <td>
+                    Average Year built 
+                  </td>
+                  <td>
+                    ####
+                  </td>
+                  <tr class="table-sold">
+                    <td>
+                      Number of Houses Sold  
+                    </td>
+                    <td>
+                      ####
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+ 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
