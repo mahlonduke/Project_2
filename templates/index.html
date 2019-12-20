@@ -14,10 +14,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h3 class="text-center">
+        <h2 class="text-center">
           Trend of Housing Prices in Major Cities
-        </h3>
-        <div class="controlPanel">
+        </h2>
+        <div class="col-sm-2">
+          <div class="controlPanel">
           <h5>Sale Location:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)">
             <option value="null">--Select a Location--</option>
@@ -27,19 +28,14 @@
             <option value="denver">Denver</option>
             <option value="austin">Austin</option>
           </select>
-        </div> 
-        <div class="jumbotron">
-          <h2>
-            Where our d3 graph will go
-          </h2>
-          <p>
-            Can it be in a jumbotron?
-          </p>
+          </div> 
+        </div>
+        <div class="col-sm-10">
+          <div id="map"></div>
         </div>
         <div class="row">
           <div class="col-md-8">
-            <h3>
-              
+            <h3> 
             </h3><img alt="San Francisco Cityline" src="https://s.marketwatch.com/public/resources/images/MW-HF311_sanfra_ZH_20190307211532.jpg" />
             <h3 class="text-center">
               Is it worth the cost? 
@@ -53,65 +49,8 @@
             </p>
           </div>
           <div class="col-md-4">
-            <table class="table table-bordered table-sm">
+            <table id="showData" class="table table-bordered table-sm">
               <thead>
-                <tr>
-                  <th>
-                    City Statistics
-                  </th>
-                  <th>
-                    Numbers
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    Mode Year Built
-                  </td>
-                  <td>
-                    ####
-                  </td>
-                </tr>
-                <tr class="table-sqft">
-                  <td>
-                    Average Price per sq.ft
-                  </td>
-                  <td>
-                    ####
-                  </td>
-                </tr>
-                <tr class="table-bdrm">
-                  <td>
-                    Average price per bedroom
-                  </td>
-                  <td>
-                    ####
-                  </td>
-                </tr>
-                <tr class="table-beds">
-                  <td>
-                    Average number of beds
-                  </td>
-                  <td>
-                    ####
-                  </td>
-                </tr>
-                <tr class="table-avgyear">
-                  <td>
-                    Average Year built 
-                  </td>
-                  <td>
-                    ####
-                  </td>
-                  <tr class="table-sold">
-                    <td>
-                      Number of Houses Sold  
-                    </td>
-                    <td>
-                      ####
-                    </td>
-                </tr>
               </tbody>
             </table>
           </div>
@@ -127,6 +66,7 @@
   <script src="../static/js/raphael-min.js"></script>
   <script type="text/javascript" src="static/js/config.js"></script>
   <script type="text/javascript" src="../static/js/logic.js"></script>
+  <script type="text/javascript" src="../static/js/table.js"></script>
 </body>
 
 </html>
