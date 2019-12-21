@@ -13,7 +13,7 @@ from sqlalchemy.engine.url import URL
 # Local file dependencies
 import api_config
 # ------------------------------------------------------------------------------
-# Boilerplate for creating the app via Flask 
+# Boilerplate for creating the app via Flask
 app = Flask(__name__)
 # ------------------------------------------------------------------------------
 # Homepage/index route
@@ -25,7 +25,7 @@ def index():
     engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
     conn = engine.connect()
     m = MetaData()
-
+ 
     # Define the table structure for queries to the 'sales' table
     tableSales = Table('sales', m,
         Column('city', String),
