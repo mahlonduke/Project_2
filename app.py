@@ -22,10 +22,39 @@ def index():
     """Homepage requested."""
 
     # Configure the database connection
-    engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+
+    # This engine is for testing locally
+    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+    # This engine is for use in Heroku
+    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+
     conn = engine.connect()
     m = MetaData()
- 
+
+    # Create the tables if they don't already exist
+    conn.execute('CREATE TABLE IF NOT EXISTS sales (\
+    	sale_id SERIAL PRIMARY KEY,\
+    	city VARCHAR(20),\
+    	lat FLOAT,\
+    	lon FLOAT,\
+    	squarefeet INT,\
+    	yearBuilt INT,\
+    	bathrooms FLOAT,\
+    	bedrooms INT,\
+    	saleprice FLOAT\
+    );')
+    conn.execute('CREATE TABLE IF NOT EXISTS summary (\
+    	summary_id SERIAL PRIMARY KEY,\
+    	city VARCHAR(20),\
+    	totalProperties INT,\
+    	pricePerBed FLOAT,\
+    	pricePerBath FLOAT,\
+    	pricePerSquareFoot FLOAT,\
+    	averageBeds INT,\
+    	averageBaths INT,\
+    	averageYearBuilt INT\
+    );')
+
     # Define the table structure for queries to the 'sales' table
     tableSales = Table('sales', m,
         Column('city', String),

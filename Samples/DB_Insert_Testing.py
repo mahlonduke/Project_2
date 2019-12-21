@@ -9,7 +9,10 @@ from sqlalchemy import Column, Integer, String, Float
 from sqlalchemy.engine.url import URL
 
 dbPass = '88653680Dd!'
-engine = create_engine(f"postgresql://postgres:{dbPass}@localhost:5432/project2")
+# Local testing
+# engine = create_engine(f"postgresql://postgres:{dbPass}@localhost:5432/project2")
+# Heroku testing
+engine = create_engine(f"postgresql://nmmcyofxoredaq:17a5d21934d2b008c292281e8648128ca2cb7d051508c2ee3c17cd8b80feee92@ec2-107-22-234-204.compute-1.amazonaws.com/d51b6vvs3omkr0")
 m = MetaData()
 
 # Define the SQL table's structure
