@@ -2,13 +2,14 @@ DROP TABLE IF EXISTS sales;
 
 CREATE TABLE IF NOT EXISTS sales (
 	sale_id SERIAL PRIMARY KEY,
+	city VARCHAR(20),
 	lat FLOAT,
 	lon FLOAT,
 	squarefeet INT,
 	yearBuilt INT,
 	bathrooms FLOAT,
 	bedrooms INT,
-	salePrice FLOAT
+	saleprice FLOAT
 );
 
 DROP TABLE IF EXISTS summary;

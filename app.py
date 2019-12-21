@@ -20,57 +20,66 @@ def index():
 
     # Configure the database connection
     engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+    conn = engine.connect()
     m = MetaData()
 
     # Define the SQL tables' structure
     tableSales = Table('sales', m,
-        Column('sale_id', Integer, primary_key=True),
+        Column('city', String),
         Column('lat', Float, nullable=True),
         Column('lon', Float),
         Column('squarefeet', Integer),
         Column('bathrooms', Float),
         Column('bedrooms', Integer),
-        Column('salePrice', Float),
-        Column('yearBuilt', Integer)
+        Column('saleprice', Float),
+        Column('yearbuilt', Integer)
         )
 
     tableSummary = Table('summary', m,
-        Column('summary_id', Integer, primary_key=True),
         Column('city', String),
-        Column('totalProperties', Integer),
-        Column('pricePerBed', Float),
-        Column('pricePerBath', Float),
-        Column('pricePerSquareFoot', Float),
-        Column('averageBeds', Float),
-        Column('averageBaths', Integer),
-        Column('averageYearBuilt', Integer)
+        Column('totalproperties', Integer),
+        Column('priceperbed', Float),
+        Column('priceperbath', Float),
+        Column('pricepersquarefoot', Float),
+        Column('averagebeds', Float),
+        Column('averagebaths', Integer),
+        Column('averageyearbuilt', Integer)
     )
 
+    # Truncate the existing tables to remove any previous data
+    conn.execute('TRUNCATE summary CASCADE;')
+    conn.execute('TRUNCATE sales CASCADE;')
+
     # Drop the existing tables from the DB, so fresh data can be inserted
-    tableSales.drop(engine)
-    tableSummary.drop(engine)
+    # tableSales.drop(engine)
+    # tableSummary.drop(engine)
 
     # Create the tables fresh so that new data can be inserted
-    tableSales.create(engine)
-    tableSummary.create(engine)
+    # tableSales.create(engine)
+    # tableSummary.create(engine)
 
     # Function to handle the querying of data from the API.  Accepts a string which corresponds to the city you're pulling data on
     def pullData(city):
         if city == 'sanfrancisco':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=37.807570&longitude=-122.258336'
+            city = 'San Francisco'
         elif city == 'newyork':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=40.711102&longitude=-74.000501'
+            city = 'New York'
         elif city == 'chicago':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=41.851808&longitude=-87.633122'
+            city = 'Chicago'
         elif city == 'denver':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=39.747891&longitude=-104.986956'
+            city = 'Chicago'
         elif city == 'austin':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=30.276930&longitude=-97.743102'
+            city = 'Austin'
         else:
             print(f"An invalid city was selected.  The selection was: {city}.")
             print(f"Returning San Francisco data by default")
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=37.807570&longitude=-122.258336'
-
+            table = tableSalesSanFrancisco
 
         # Setup the headers for the request
         headers = {
@@ -125,16 +134,15 @@ def index():
 
             # Insert the individual sale's data into the DB's sales table
             ins = tableSales.insert().values(
-                sale_id = tracker,
+                city = city,
                 lat = lat,
                 lon = lon,
                 squarefeet = squarefeet,
                 bathrooms = bathrooms,
                 bedrooms = bedrooms,
-                salePrice = salePrice,
-                yearBuilt = yearBuilt
+                saleprice = salePrice,
+                yearbuilt = yearBuilt
                 )
-            conn = engine.connect()
             conn.execute(ins)
 
 
@@ -160,17 +168,15 @@ def index():
 
         # Insert the summary data to the DB
         ins = tableSummary.insert().values(
-            summary_id=1,
             city=city,
-            totalProperties=totalProperties,
-            pricePerBed=pricePerBed,
-            pricePerBath=pricePerBath,
-            pricePerSquareFoot=pricePerSquareFoot,
-            averageBeds=averageBeds,
-            averageBaths=averageBaths,
-            averageYearBuilt=averageYearBuilt
+            totalproperties=totalProperties,
+            priceperbed=pricePerBed,
+            priceperbath=pricePerBath,
+            pricepersquarefoot=pricePerSquareFoot,
+            averagebeds=averageBeds,
+            averagebaths=averageBaths,
+            averageyearbuilt=averageYearBuilt
             )
-        conn = engine.connect()
         conn.execute(ins)
 
         return None

@@ -68,3 +68,4 @@ ins = tableSummary.insert().values(
 #     )
 conn = engine.connect()
 conn.execute(ins)
+conn.execute('TRUNCATE summary CASCADE;')
