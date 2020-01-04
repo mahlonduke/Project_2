@@ -353,7 +353,7 @@ def pullSaleData(column, location, date):
 # ------------------------------------------------------------------------------
 # Function for pulling summary data from Postgres
 def pullSummaryData(column, location, date):
-    response = conn.execute(f'SELECT {column} FROM summary WHERE city = \'{location}\' AND averageSaleYear = {date};').fetchall()
+    response = conn.execute(f'SELECT {column} FROM summary WHERE city = \'{location}\' AND averagesaleyear = {date};').fetchall()
 
     return (response)
 # ------------------------------------------------------------------------------
