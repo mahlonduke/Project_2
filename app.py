@@ -34,8 +34,8 @@ def index():
     """Homepage requested."""
 
     # One-time commands (because TRUNCATE is used later on) to drop the sales and summary tables.  Meant to be used for Heroku, since local Postgres can have the commands run directly
-    # conn.execute('DROP TABLE IF EXISTS sales;')
-    # conn.execute('DROP TABLE IF EXISTS summary;')
+    conn.execute('DROP TABLE IF EXISTS sales;')
+    conn.execute('DROP TABLE IF EXISTS summary;')
 
     # Create the tables if they don't already exist
     conn.execute('CREATE TABLE IF NOT EXISTS sales (\
