@@ -16,24 +16,26 @@ import api_config
 # Boilerplate for creating the app via Flask
 app = Flask(__name__)
 # ------------------------------------------------------------------------------
+# Configure the database connection
+
+# This engine is for testing locally
+engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+
+# This engine is for use in Heroku
+# engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+
+# This is for all connections
+conn = engine.connect()
+m = MetaData()
+# ------------------------------------------------------------------------------
 # Homepage/index route
 @app.route("/")
 def index():
     """Homepage requested."""
 
-    # Configure the database connection
-
-    # This engine is for testing locally
-    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
-    # This engine is for use in Heroku
-    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
-
-    conn = engine.connect()
-    m = MetaData()
-
-    # One-time commands to drop the sales and summary tables.  Meant to be used for Heroku
-    conn.execute('DROP TABLE IF EXISTS sales;')
-    conn.execute('DROP TABLE IF EXISTS summary;')
+    # One-time commands (because TRUNCATE is used later on) to drop the sales and summary tables.  Meant to be used for Heroku, since local Postgres can have the commands run directly
+    # conn.execute('DROP TABLE IF EXISTS sales;')
+    # conn.execute('DROP TABLE IF EXISTS summary;')
 
     # Create the tables if they don't already exist
     conn.execute('CREATE TABLE IF NOT EXISTS sales (\
@@ -57,7 +59,8 @@ def index():
     	pricePerSquareFoot FLOAT,\
     	averageBeds INT,\
     	averageBaths INT,\
-    	averageYearBuilt INT\
+    	averageYearBuilt INT,\
+        averageSaleYear INT\
     );')
 
     # Define the table structure for queries to the 'sales' table
@@ -203,7 +206,8 @@ def index():
             pricepersquarefoot=pricePerSquareFoot,
             averagebeds=averageBeds,
             averagebaths=averageBaths,
-            averageyearbuilt=averageYearBuilt
+            averageyearbuilt=averageYearBuilt,
+            averagesaleyear=averageSaleYear
             )
         conn.execute(ins)
 
@@ -247,48 +251,19 @@ def dataPullSales(location, date):
     print(f"Location requested: {location}")
     print(f"Date requested: {date}")
 
-    # Configure the database connection
-
-    # This engine is for testing locally
-    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
-    # This engine is for use in Heroku
-    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
-
-    conn = engine.connect()
-    m = MetaData()
-
     # Pull the sales data from the DB based on the supplied location and date
-    testResponse = conn.execute(f'SELECT city FROM sales;')
     salesResponse = conn.execute(f'SELECT * FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
-    #print(testResponse)
-    # row = testResponse.fetchall()
-    #print(row)
-    result = [r for r, in testResponse]
-    print(result)
-    #print(salesResponse.__dict__)
-    #row = salesResponse.fetchall()
-    #print(row)
-
-    # Function for pulling data from Postgres
-    def pullSQLData(column, location, date):
-        response = conn.execute(f'SELECT {column} FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
-
-        return (response)
-
-    # testResult = pullSQLData('city', location, date)
-    # testResult = [r for r, in pullSQLData('city', location, date)]
-    # print(f'Result of PullSQLData test: {testResult}')
 
     # Pull the data
-    city = [r for r, in pullSQLData('city', location, date)]
-    lat = [r for r, in pullSQLData('lat', location, date)]
-    lon = [r for r, in pullSQLData('lon', location, date)]
-    squarefeet = [r for r, in pullSQLData('squarefeet', location, date)]
-    bathrooms = [r for r, in pullSQLData('bathrooms', location, date)]
-    bedrooms = [r for r, in pullSQLData('bedrooms', location, date)]
-    saleprice = [r for r, in pullSQLData('saleprice', location, date)]
-    yearbuilt = [r for r, in pullSQLData('yearbuilt', location, date)]
-    saleyear = [r for r, in pullSQLData('saleyear', location, date)]
+    city = [r for r, in pullSaleData('city', location, date)]
+    lat = [r for r, in pullSaleData('lat', location, date)]
+    lon = [r for r, in pullSaleData('lon', location, date)]
+    squarefeet = [r for r, in pullSaleData('squarefeet', location, date)]
+    bathrooms = [r for r, in pullSaleData('bathrooms', location, date)]
+    bedrooms = [r for r, in pullSaleData('bedrooms', location, date)]
+    saleprice = [r for r, in pullSaleData('saleprice', location, date)]
+    yearbuilt = [r for r, in pullSaleData('yearbuilt', location, date)]
+    saleyear = [r for r, in pullSaleData('saleyear', location, date)]
 
     # Format the data to send as a JSON payload
     salesData = {
@@ -328,38 +303,51 @@ def dataPullSummary(location, date):
         location = 'San Francisco'
 
     # Log the requested location and date to console for troubleshooting
-    print(f"Sales data requested.")
+    print(f"Summary data requested.")
     print(f"Location requested: {location}")
     print(f"Date requested: {date}")
 
-    # Configure the database connection
-
-    # This engine is for testing locally
-    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
-    # This engine is for use in Heroku
-    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
-
-    conn = engine.connect()
-    m = MetaData()
-
     # Pull the summary data from the DB based on the supplied location and date
-    summaryResponse = conn.execute(f'SELECT * FROM summary WHERE city = \'{location}\' AND averageyearbuilt = {date};')
+    salesResponse = conn.execute(f'SELECT * FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
+
+    # Pull the data
+    city = [r for r, in pullSummaryData('city', location, date)]
+    totalproperties = [r for r, in pullSummaryData('totalproperties', location, date)]
+    priceperbed = [r for r, in pullSummaryData('priceperbed', location, date)]
+    priceperbath = [r for r, in pullSummaryData('priceperbath', location, date)]
+    pricepersquarefoot = [r for r, in pullSummaryData('pricepersquarefoot', location, date)]
+    averagebeds = [r for r, in pullSummaryData('averagebeds', location, date)]
+    averagebaths = [r for r, in pullSummaryData('averagebaths', location, date)]
+    averageyearbuilt = [r for r, in pullSummaryData('averageyearbuilt', location, date)]
+    averagesaleyear = [r for r, in pullSummaryData('averagesaleyear', location, date)]
 
     # Format the data to send as a JSON payload
     summaryData = {
-        "city": summaryResponse.city.values.tolist(),
-        "totalproperties": summaryResponse.totalproperties.values.tolist(),
-        "priceperbed": summaryResponse.priceperbed.values.tolist(),
-        "priceperbath": summaryResponse.priceperbath.values.tolist(),
-        "pricepersquarefoot": summaryResponse.pricepersquarefoot.values.tolist(),
-        "averagebeds": summaryResponse.averagebeds.values.tolist(),
-        "averagebaths": summaryResponse.averagebaths.values.tolist(),
-        "averageyearbuilt": summaryResponse.averageyearbuilt.values.tolist(),
-        "averagesaleyear": summaryResponse.averagesaleyear.values.tolist()
+        "city": city,
+        "totalproperties": totalproperties,
+        "priceperbed": priceperbed,
+        "priceperbath": priceperbath,
+        "pricepersquarefoot": pricepersquarefoot,
+        "averagebeds": averagebeds,
+        "averagebaths": averagebaths,
+        "averageyearbuilt": averageyearbuilt,
+        "averagesaleyear": averagesaleyear
     }
 
     # Return the summary data as JSON
     return jsonify(summaryData)
+# ------------------------------------------------------------------------------
+# Function for pulling sale data from Postgres
+def pullSaleData(column, location, date):
+    response = conn.execute(f'SELECT {column} FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
+
+    return (response)
+# ------------------------------------------------------------------------------
+# Function for pulling summary data from Postgres
+def pullSummaryData(column, location, date):
+    response = conn.execute(f'SELECT {column} FROM summary WHERE city = \'{location}\' AND averageSaleYear = {date};').fetchall()
+
+    return (response)
 # ------------------------------------------------------------------------------
 # Boilerplate for running the code as an app through Flask
 if __name__ == "__main__":
