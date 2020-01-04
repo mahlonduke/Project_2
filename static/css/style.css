@@ -25,3 +25,22 @@ p {
   left:10%;
   top:60%;
 }
+
+#bannerimage {
+  width: 100%;
+  background-image: url(https://www.homebuy.com/wp-content/uploads/2018/08/HomeBuy-home-banner-background.jpg);
+  height: 240px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bannertext {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
