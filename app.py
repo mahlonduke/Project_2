@@ -34,34 +34,40 @@ def index():
     """Homepage requested."""
 
     # One-time commands (because TRUNCATE is used later on) to drop the sales and summary tables.  Meant to be used for Heroku, since local Postgres can have the commands run directly
-    conn.execute('DROP TABLE IF EXISTS sales;')
-    conn.execute('DROP TABLE IF EXISTS summary;')
+    try:
+        conn.execute('DROP TABLE IF EXISTS sales;')
+        conn.execute('DROP TABLE IF EXISTS summary;')
+    except:
+        print("Drop table failed")
 
     # Create the tables if they don't already exist
-    conn.execute('CREATE TABLE IF NOT EXISTS sales (\
-    	sale_id SERIAL PRIMARY KEY,\
-    	city VARCHAR(20),\
-    	lat FLOAT,\
-    	lon FLOAT,\
-    	squarefeet INT,\
-    	bathrooms FLOAT,\
-    	bedrooms INT,\
-    	salePrice FLOAT,\
-        yearBuilt INT,\
-        saleYear INT\
-    );')
-    conn.execute('CREATE TABLE IF NOT EXISTS summary (\
-    	summary_id SERIAL PRIMARY KEY,\
-    	city VARCHAR(20),\
-    	totalProperties INT,\
-    	pricePerBed FLOAT,\
-    	pricePerBath FLOAT,\
-    	pricePerSquareFoot FLOAT,\
-    	averageBeds INT,\
-    	averageBaths INT,\
-    	averageYearBuilt INT,\
-        averageSaleYear INT\
-    );')
+    try:
+        conn.execute('CREATE TABLE IF NOT EXISTS sales (\
+        	sale_id SERIAL PRIMARY KEY,\
+        	city VARCHAR(20),\
+        	lat FLOAT,\
+        	lon FLOAT,\
+        	squarefeet INT,\
+        	bathrooms FLOAT,\
+        	bedrooms INT,\
+        	salePrice FLOAT,\
+            yearBuilt INT,\
+            saleYear INT\
+        );')
+        conn.execute('CREATE TABLE IF NOT EXISTS summary (\
+        	summary_id SERIAL PRIMARY KEY,\
+        	city VARCHAR(20),\
+        	totalProperties INT,\
+        	pricePerBed FLOAT,\
+        	pricePerBath FLOAT,\
+        	pricePerSquareFoot FLOAT,\
+        	averageBeds INT,\
+        	averageBaths INT,\
+        	averageYearBuilt INT,\
+            averageSaleYear INT\
+        );')
+    except:
+        print("Table creation failed")
 
     # Define the table structure for queries to the 'sales' table
     tableSales = Table('sales', m,
@@ -73,7 +79,8 @@ def index():
         Column('bedrooms', Integer),
         Column('saleprice', Float),
         Column('yearbuilt', Integer),
-        Column('saleyear', Integer)
+        Column('saleyear', Integer),
+        extend_existing=True
         )
 
     # Define the table structure for queries to the 'summary' table
@@ -86,7 +93,8 @@ def index():
         Column('averagebeds', Float),
         Column('averagebaths', Integer),
         Column('averageyearbuilt', Integer),
-        Column('averagesaleyear', Integer)
+        Column('averagesaleyear', Integer),
+        extend_existing=True
     )
 
     # Truncate the existing tables to remove any previous data
