@@ -31,6 +31,10 @@ def index():
     conn = engine.connect()
     m = MetaData()
 
+    # One-time commands to drop the sales and summary tables.  Meant to be used for Heroku
+    conn.execute('DROP TABLE IF EXISTS sales;')
+    conn.execute('DROP TABLE IF EXISTS summary;')
+
     # Create the tables if they don't already exist
     conn.execute('CREATE TABLE IF NOT EXISTS sales (\
     	sale_id SERIAL PRIMARY KEY,\
@@ -38,10 +42,11 @@ def index():
     	lat FLOAT,\
     	lon FLOAT,\
     	squarefeet INT,\
-    	yearBuilt INT,\
     	bathrooms FLOAT,\
     	bedrooms INT,\
-    	saleprice FLOAT\
+    	salePrice FLOAT,\
+        yearBuilt INT,\
+        saleYear INT\
     );')
     conn.execute('CREATE TABLE IF NOT EXISTS summary (\
     	summary_id SERIAL PRIMARY KEY,\
@@ -64,7 +69,8 @@ def index():
         Column('bathrooms', Float),
         Column('bedrooms', Integer),
         Column('saleprice', Float),
-        Column('yearbuilt', Integer)
+        Column('yearbuilt', Integer),
+        Column('saleyear', Integer)
         )
 
     # Define the table structure for queries to the 'summary' table
@@ -76,7 +82,8 @@ def index():
         Column('pricepersquarefoot', Float),
         Column('averagebeds', Float),
         Column('averagebaths', Integer),
-        Column('averageyearbuilt', Integer)
+        Column('averageyearbuilt', Integer),
+        Column('averagesaleyear', Integer)
     )
 
     # Truncate the existing tables to remove any previous data
@@ -132,6 +139,7 @@ def index():
         bathrooms = 0.00
         bedrooms = 0
         salePrice = 0.00
+        saleYear = 0
         # For just the summary table
         totalPrice = 0
         totalBeds = 0
@@ -141,6 +149,7 @@ def index():
         averageBeds = 0
         averageBaths = 0
         averageYearBuilt = 0
+        averageSaleYear = 0
 
         # Loop through the response
         for i in propertyData:
@@ -152,6 +161,7 @@ def index():
             bedrooms = i['building']['rooms']['beds']
             salePrice = i['sale']['amount']['saleamt']
             yearBuilt = i['summary']['yearbuilt']
+            saleYear = int(i['sale']['amount']['salerecdate'].split("-")[0])
 
             # Insert the individual sale's data into the DB's sales table
             ins = tableSales.insert().values(
@@ -162,7 +172,8 @@ def index():
                 bathrooms = bathrooms,
                 bedrooms = bedrooms,
                 saleprice = salePrice,
-                yearbuilt = yearBuilt
+                yearbuilt = yearBuilt,
+                saleyear = saleYear
                 )
             conn.execute(ins)
 
@@ -172,6 +183,7 @@ def index():
             totalBeds += bedrooms
             totalSquareFeet += squarefeet
             averageYearBuilt += yearBuilt
+            averageSaleYear += saleYear
 
         # Calculate the averages
         pricePerBed =  round(totalPrice / totalBeds, 2)
@@ -180,6 +192,7 @@ def index():
         averageBeds = totalBeds / totalProperties
         averageBaths = totalBaths / totalProperties
         averageYearBuilt = int(round(averageYearBuilt / totalProperties, 0))
+        averageSaleYear = int(round(averageSaleYear / totalProperties, 0))
 
         # Insert the summary data to the DB
         ins = tableSummary.insert().values(
@@ -207,7 +220,146 @@ def index():
 
 
     return render_template("index.html")
+# ------------------------------------------------------------------------------
+# Data route for sales
+@app.route("/sales/<location>/<date>")
+def dataPullSales(location, date):
+    """Sales data requested."""
 
+    # Convert the supplied location into the capitalized format for querying Postgres
+    if location == 'sanfrancisco':
+        location = 'San Francisco'
+    elif location == 'newyork':
+        location = 'New York'
+    elif location == 'chicago':
+        location = 'Chicago'
+    elif location == 'denver':
+        location = 'Chicago'
+    elif city == 'austin':
+        location = 'Austin'
+    else:
+        print(f"An invalid city was selected.  The selection was: {location}.")
+        print(f"Returning San Francisco data by default")
+        location = 'San Francisco'
+
+    # Log the requested location and date to console for troubleshooting
+    print(f"Sales data requested.")
+    print(f"Location requested: {location}")
+    print(f"Date requested: {date}")
+
+    # Configure the database connection
+
+    # This engine is for testing locally
+    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+    # This engine is for use in Heroku
+    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+
+    conn = engine.connect()
+    m = MetaData()
+
+    # Pull the sales data from the DB based on the supplied location and date
+    testResponse = conn.execute(f'SELECT city FROM sales;')
+    salesResponse = conn.execute(f'SELECT * FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
+    #print(testResponse)
+    # row = testResponse.fetchall()
+    #print(row)
+    result = [r for r, in testResponse]
+    print(result)
+    #print(salesResponse.__dict__)
+    #row = salesResponse.fetchall()
+    #print(row)
+
+    # Function for pulling data from Postgres
+    def pullSQLData(column, location, date):
+        response = conn.execute(f'SELECT {column} FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
+
+        return (response)
+
+    # testResult = pullSQLData('city', location, date)
+    # testResult = [r for r, in pullSQLData('city', location, date)]
+    # print(f'Result of PullSQLData test: {testResult}')
+
+    # Pull the data
+    city = [r for r, in pullSQLData('city', location, date)]
+    lat = [r for r, in pullSQLData('lat', location, date)]
+    lon = [r for r, in pullSQLData('lon', location, date)]
+    squarefeet = [r for r, in pullSQLData('squarefeet', location, date)]
+    bathrooms = [r for r, in pullSQLData('bathrooms', location, date)]
+    bedrooms = [r for r, in pullSQLData('bedrooms', location, date)]
+    saleprice = [r for r, in pullSQLData('saleprice', location, date)]
+    yearbuilt = [r for r, in pullSQLData('yearbuilt', location, date)]
+    saleyear = [r for r, in pullSQLData('saleyear', location, date)]
+
+    # Format the data to send as a JSON payload
+    salesData = {
+        "city": city,
+        "latitude": lat,
+        "longitude": lon,
+        "squarefeet": squarefeet,
+        "bathrooms": bathrooms,
+        "bedrooms": bedrooms,
+        "saleprice": saleprice,
+        "yearbuilt": yearbuilt,
+        "saleyear": saleyear
+    }
+
+    # Return the sales data as JSON
+    return jsonify(salesData)
+# ------------------------------------------------------------------------------
+# Data route for summary
+@app.route("/summary/<location>/<date>")
+def dataPullSummary(location, date):
+    """Summary data requested."""
+
+    # Convert the supplied location into the capitalized format for querying Postgres
+    if location == 'sanfrancisco':
+        location = 'San Francisco'
+    elif location == 'newyork':
+        location = 'New York'
+    elif location == 'chicago':
+        location = 'Chicago'
+    elif location == 'denver':
+        location = 'Chicago'
+    elif city == 'austin':
+        location = 'Austin'
+    else:
+        print(f"An invalid city was selected.  The selection was: {location}.")
+        print(f"Returning San Francisco data by default")
+        location = 'San Francisco'
+
+    # Log the requested location and date to console for troubleshooting
+    print(f"Sales data requested.")
+    print(f"Location requested: {location}")
+    print(f"Date requested: {date}")
+
+    # Configure the database connection
+
+    # This engine is for testing locally
+    # engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+    # This engine is for use in Heroku
+    engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+
+    conn = engine.connect()
+    m = MetaData()
+
+    # Pull the summary data from the DB based on the supplied location and date
+    summaryResponse = conn.execute(f'SELECT * FROM summary WHERE city = \'{location}\' AND averageyearbuilt = {date};')
+
+    # Format the data to send as a JSON payload
+    summaryData = {
+        "city": summaryResponse.city.values.tolist(),
+        "totalproperties": summaryResponse.totalproperties.values.tolist(),
+        "priceperbed": summaryResponse.priceperbed.values.tolist(),
+        "priceperbath": summaryResponse.priceperbath.values.tolist(),
+        "pricepersquarefoot": summaryResponse.pricepersquarefoot.values.tolist(),
+        "averagebeds": summaryResponse.averagebeds.values.tolist(),
+        "averagebaths": summaryResponse.averagebaths.values.tolist(),
+        "averageyearbuilt": summaryResponse.averageyearbuilt.values.tolist(),
+        "averagesaleyear": summaryResponse.averagesaleyear.values.tolist()
+    }
+
+    # Return the summary data as JSON
+    return jsonify(summaryData)
 # ------------------------------------------------------------------------------
 # Boilerplate for running the code as an app through Flask
 if __name__ == "__main__":
