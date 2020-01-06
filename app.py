@@ -221,15 +221,12 @@ def index():
 
         return None
 
-
-
     # Call the pullData function for each city
     pullData('sanfrancisco')
     pullData('newyork')
     pullData('chicago')
     pullData('denver')
     pullData('austin')
-
 
     return render_template("index.html")
 # ------------------------------------------------------------------------------
@@ -247,7 +244,7 @@ def dataPullSales(location, date):
         location = 'Chicago'
     elif location == 'denver':
         location = 'Chicago'
-    elif city == 'austin':
+    elif location == 'austin':
         location = 'Austin'
     else:
         print(f"An invalid city was selected.  The selection was: {location}.")
