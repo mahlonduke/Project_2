@@ -300,7 +300,7 @@ def dataPullSummary(location, date):
         location = 'Chicago'
     elif location == 'denver':
         location = 'Chicago'
-    elif city == 'austin':
+    elif location == 'austin':
         location = 'Austin'
     else:
         print(f"An invalid city was selected.  The selection was: {location}.")
