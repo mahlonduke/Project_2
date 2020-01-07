@@ -19,7 +19,7 @@ app = Flask(__name__)
 # Configure the database connection
 
 # This engine is for testing locally
-# engine = create_engine(f"postgresql://postgres:{api_config.pgPass}@localhost:5432/project2")
+# engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
 
 # This engine is for use in Heroku
 engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
@@ -221,15 +221,12 @@ def index():
 
         return None
 
-
-
     # Call the pullData function for each city
     pullData('sanfrancisco')
     pullData('newyork')
     pullData('chicago')
     pullData('denver')
     pullData('austin')
-
 
     return render_template("index.html")
 # ------------------------------------------------------------------------------
@@ -247,7 +244,7 @@ def dataPullSales(location, date):
         location = 'Chicago'
     elif location == 'denver':
         location = 'Chicago'
-    elif city == 'austin':
+    elif location == 'austin':
         location = 'Austin'
     else:
         print(f"An invalid city was selected.  The selection was: {location}.")
@@ -303,7 +300,7 @@ def dataPullSummary(location, date):
         location = 'Chicago'
     elif location == 'denver':
         location = 'Chicago'
-    elif city == 'austin':
+    elif location == 'austin':
         location = 'Austin'
     else:
         print(f"An invalid city was selected.  The selection was: {location}.")
@@ -360,3 +357,4 @@ def pullSummaryData(column, location, date):
 # Boilerplate for running the code as an app through Flask
 if __name__ == "__main__":
     app.run()
+# ------------------------------------------------------------------------------
