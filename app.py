@@ -19,10 +19,10 @@ app = Flask(__name__)
 # Configure the database connection
 
 # This engine is for testing locally
-# engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
 
 # This engine is for use in Heroku
-engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+# engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
 
 # This is for all connections
 conn = engine.connect()
@@ -115,7 +115,7 @@ def index():
             city = 'Chicago'
         elif city == 'denver':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=39.747891&longitude=-104.986956'
-            city = 'Chicago'
+            city = 'Denver'
         elif city == 'austin':
             queryURL = 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?pagesize=100&radius=50&latitude=30.276930&longitude=-97.743102'
             city = 'Austin'
@@ -243,7 +243,7 @@ def dataPullSales(location, date):
     elif location == 'chicago':
         location = 'Chicago'
     elif location == 'denver':
-        location = 'Chicago'
+        location = 'Denver'
     elif location == 'austin':
         location = 'Austin'
     else:
@@ -299,7 +299,7 @@ def dataPullSummary(location, date):
     elif location == 'chicago':
         location = 'Chicago'
     elif location == 'denver':
-        location = 'Chicago'
+        location = 'Denver'
     elif location == 'austin':
         location = 'Austin'
     else:
@@ -312,8 +312,20 @@ def dataPullSummary(location, date):
     print(f"Location requested: {location}")
     print(f"Date requested: {date}")
 
-    # Pull the summary data from the DB based on the supplied location and date
-    salesResponse = conn.execute(f'SELECT * FROM sales WHERE city = \'{location}\' AND saleyear = {date};').fetchall()
+    # Check for an empty result
+    emptySetTest = [r for r, in pullSummaryData('city', location, date)]
+    if emptySetTest == []:
+        # Change the requested date to one with data for the selected city
+        if location == 'San Francisco':
+            date = 2013
+        if location == 'New York':
+            date = 2013
+        if location == 'Chicago':
+            date = 2014
+        if location == 'Denver':
+            date = 2015
+        if location == 'Austin':
+            date = 2014
 
     # Pull the data
     city = [r for r, in pullSummaryData('city', location, date)]
