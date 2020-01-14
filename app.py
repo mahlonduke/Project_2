@@ -19,10 +19,10 @@ app = Flask(__name__)
 # Configure the database connection
 
 # This engine is for testing locally
-engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
+# engine = create_engine(f"postgresql://postgres:{api_config.postgresPass}@localhost:5432/project2")
 
 # This engine is for use in Heroku
-# engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
+engine = create_engine(f"postgresql://{api_config.pgUser}:{api_config.pgPass}@{api_config.pgHost}/{api_config.pgDB}")
 
 # This is for all connections
 conn = engine.connect()
@@ -353,6 +353,20 @@ def dataPullSummary(location, date):
 
     # Return the summary data as JSON
     return jsonify(summaryData)
+
+
+# Income CSV file route
+@app.route("/getIncomeCSV")
+def getIncomeCSV():
+    with open("income.csv") as fp:
+        csv = fp.read()
+    return Response(
+        csv,
+        mimetype="text/csv",
+        headers={"Content-disposition":
+                     "attachment; filename=income.csv"})
+
+   
 # ------------------------------------------------------------------------------
 # Function for pulling sale data from Postgres
 def pullSaleData(column, location, date):
