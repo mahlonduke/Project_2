@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../static/css/style.css" />
 <!-- Leaflet JS & CSS -->
+<script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
+<!-- <script src="js/PapaParse-4.0.7/papaparse.min.js"></script> -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
 integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
 crossorigin=""/>
@@ -25,12 +27,29 @@ crossorigin=""></script>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Trends in Sales Prices in Major American Citieis</h1>
-        <p>2010 - 2019</p>
+      <div class="col-md-12 jumbotron text-center" id="bannerimage">
+        <div id="bannertext">
+        <h1 style="font-size:40px">Real Estate Trends in Major American Cities</h1>
+        </div>
       </div>
     </div>
-    <div class="row">
+    <div class="col-md-8">
+      <h3 class="text-center">
+        Is it worth the cost? 
+      </h3>
+      <p>
+        It's commonly known that California, and the Bay Area in particular, offers some of the best, highest-paying jobs 
+        in the nation.  It's also commonly known, however, that the Bay Area boasts <strong>some of the most expensive real estate
+        in the world.</strong>  For young professionals who are looking to settle down, this raises an important question: "Is the 
+        Bay Area salary worth it?".  We've attempted to answer that question by looking at the average sale price for homes 
+        in five major American cities.
+      </p>
+    </div>
+    <div class="col-md-4">
+    <img alt="Rising Prices" src="https://uctangerine.com/wp-content/uploads/2017/11/bar-graph.jpg" height="100%"/>
+    </div>
+
+    <div class="col-md-12">
       <div class="slidecontainer">
         <p>Move slider to select year:</p>
         <input type="range" min="2010" max="2019" value="1" id="myRange" class="slider">
@@ -49,24 +68,29 @@ crossorigin=""></script>
           </select>
           </div>
         </div>
+        <div>
+          <div><b>Summary data:</b></div>
+          <table id="summariesTable">
+              <thead>
+                  <tr>
+                      <th>Average Baths</th>
+                      <th>Average Beds</th>
+                      <th>Average Year Built</th>
+                      <th>Average Price Per Bath</th>
+                      <th>Average Price Per Bed</th>
+                      <th>Average Price Per Square Foot</th>
+                      <th>Total Number Of Properties</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr></tr>
+              </tbody>
+          </table>
+      </div>
         <div class="col-sm-12">
           <div id="map"></div>
         </div>
         <div class="row">
-          <div class="col-md-8">
-            <h3>
-            </h3><img alt="San Francisco Cityline" src="https://s.marketwatch.com/public/resources/images/MW-HF311_sanfra_ZH_20190307211532.jpg" />
-            <h3 class="text-center">
-              Is it worth the cost?
-            </h3>
-            <p>
-              It’s commonly known that California, and the Bay Area in particular, offers some of the best, highest-paying jobs
-              in the nation.  It’s also commonly known, however, that the Bay Area boasts <strong>some of the most expensive real estate
-              in the world.</strong>  For young professionals who are looking to settle down, this raises an important question: “Is the
-              Bay Area salary worth it?”.  We’ve attempted to answer that question by looking at the average sale price for homes
-              in five major American cities.
-            </p>
-          </div>
           <div class="col-md-4">
             <table id="showData" class="table table-bordered table-sm">
               <thead>
